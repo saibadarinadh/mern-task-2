@@ -1,0 +1,41 @@
+/* src/Calculator.css */
+body{background-image: linear-gradient(to right,#00adfa,#00fd6f)};
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+  }
+  
+  .display {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #040c2c;
+  }
+  .dot {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%; /* Makes it a circle */
+  }
+  .dott {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%; /* Makes it a circle */
+  }
+  
+  
+  
